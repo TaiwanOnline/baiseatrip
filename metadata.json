@@ -1,0 +1,6 @@
+{
+  "name": "金山老街文化網",
+  "description": "金山老街文化觀光導覽系統，提供歷史傳承、在地必嚐美食、周邊景點漫遊、交通資訊與預約導覽功能。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

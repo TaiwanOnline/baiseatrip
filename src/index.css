@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&family=Noto+Serif+TC:wght@400;500;600;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Be Vietnam Pro", "Inter", system-ui, -apple-system, sans-serif;
+  --font-serif: "Noto Serif TC", "Noto Serif", serif;
+
+  --color-primary: #842c21;
+  --color-primary-container: #a34336;
+  --color-secondary: #75584d;
+  --color-secondary-container: #fed7ca;
+  --color-tertiary: #2f5142;
+  --color-tertiary-container: #476959;
+  --color-background: #fcf9f4;
+  --color-surface: #fcf9f4;
+  --color-surface-container: #f0ede9;
+  --color-surface-container-low: #f6f3ee;
+  --color-surface-container-high: #ebe8e3;
+  --color-surface-container-highest: #e5e2dd;
+  --color-on-surface: #1c1c19;
+  --color-on-surface-variant: #56423f;
+  --color-outline: #89726e;
+  --color-outline-variant: #dcc0bc;
+  --color-inverse-surface: #31302d;
+  --color-inverse-on-surface: #f3f0eb;
+}
+
+@layer utilities {
+  .ink-wash {
+    background: linear-gradient(180deg, rgba(252,249,244,0) 0%, rgba(229,226,221,0.2) 100%);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-background);
+  color: var(--color-on-surface);
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-serif);
+}
